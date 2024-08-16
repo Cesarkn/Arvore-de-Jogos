@@ -2,7 +2,7 @@ from flask import Flask, request, jsonify
 from flask_cors import CORS
 
 app = Flask(__name__)
-CORS(app)  # Permite que o frontend se comunique com a API, mesmo se estiver em um domínio diferente
+CORS(app)
 
 
 class NoJogo:
